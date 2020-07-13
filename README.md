@@ -1,3 +1,3 @@
-### Hello!
-
-I'm Will Eccles, an embedded software engineer. I like to write open-source stuff in my free time (to varying degrees of completion). At the moment, my largest project is [cfm](https://github.com/willeccles/cfm), which is a minimal, fast, and (sometimes) good file manager.
+```c
+main(x,y){for(x=0,y=115;x<11;y^=((char*)(int[]){0x440A0B16,0x1111B4E,0x7916})[x++])putchar(y);}
+```
