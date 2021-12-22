@@ -1,6 +1,6 @@
 ```cpp
 #include <cstdio>
-template<int a, int... b>struct c{void d(){putchar(a);c<a^b...>{}.d();}};
+template<int a,int...b>struct c{void d(){putchar(a);c<a^b...>{}.d();}};
 template<int e>struct c<e>{void d(){putchar(e);}};
 int main(){c<0163,026,0170,034,074,0122,047,0103,046,0125,0137>{}.d();}
 ```
