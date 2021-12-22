@@ -2,7 +2,7 @@
 #include <cstdio>
 template<int a, int... b>struct c{void d(){std::putchar(a);c<a^b...>{}.d();}};
 template<int e>struct c<e>{void d(){std::putchar(e);}};
-int main(void){c<0163,026,0170,034,074,0122,047,0103,046,0125,0137>{}.d();}
+int main(){c<0163,026,0170,034,074,0122,047,0103,046,0125,0137>{}.d();}
 ```
 
 <!-- it's time this old girl went to the farm
